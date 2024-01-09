@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="./public/js/main.js">
+    <title>Dom</title>
+</head>
+<body>
+    <!-- <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" id="us">
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="pw">
+
+    <button id="btn" type="button">Login</button>
+    <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    <script src="./public/js/main.js"></script> -->
+    <div class="light">
+        <div class="red" id="red"></div>
+        <div class="yellow" id="yellow"></div>
+        <div class="green" id="green"></div>
+        <button id="btn" type="button" onclick="start()">Bắt đầu!</button>
+        <h2 id="go"></h2>
+    </div>
+    <div>
+        Năng lượng:
+        <div class="tank">
+            <div class="energy" id="en1"></div>
+        </div>
+        <div class="tank">
+            <div class="energy" id="en2"></div>
+        </div>
+    </div>
+    <div class="tutorial"><span style="color: red;">Xe Đỏ</span> nhấn 'D' để chạy<br><span style="color: yellow;">Xe Vàng</span> nhấn '&#9658' để chạy</div>
+    <div class="bg">
+        <img src="./public/images/carfixed.png" alt="car 1" class="car" id="car1" style="margin-top: 40px; margin-bottom: 70px;">
+        <img src="./public/images/car_2.png" alt="car 2" class="car" id="car2">
+        <img src="./public/images/finish.png" alt="finish" class="finish">
+    </div>
+    <button class="restart" type="button" id="start_again" onclick="again()">Restart</button>
+    <script src="./public/js/main.js"></script>
+    
+</body>
+</html>
